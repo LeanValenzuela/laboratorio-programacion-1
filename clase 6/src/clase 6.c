@@ -70,7 +70,7 @@ int main(void) {
 	//imprimirEdades(&a); //estoy llamado  a la funcion
 	//imprimirEdades(edades[]); MAL
 	//imprimirEdades(edades[EDADES_LEN];MAL
-	imprimirEdades(edades,EDADES_LEN); //le paso donde comienza el array y el tamaño definido
+	imprimirArrayDeEdades(edades,EDADES_LEN); //le paso donde comienza el array y el tamaño definido
 
 	// void imprimirEdades(int* pPedirEdades)
 	//void imprimirArrayDeEdades(int* pPedirEdades)
@@ -93,7 +93,7 @@ void inicializarArrayDeEdades(int pEdades[],int len,int valorInicial)
 
 	for(indice=0; indice<len; indice++)
 	{
-		pEdades[indice]=valorInicial//0;
+		pEdades[indice]=valorInicial;//0;
 	}
 
 }
